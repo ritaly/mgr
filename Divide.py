@@ -1,0 +1,27 @@
+# -*- coding: cp1250 -*-
+#plik wejsciowy musi byæ z usunietym nag³ówkiem >_title_
+
+import os.path
+
+savePath = './wynik/'
+
+with open('output.fasta') as f: 
+    seq = f.read();
+    lenght = 1000  #d³ugoœæ odcinka
+    window = 500   #przesuniêcie o okno
+
+    i = 0
+    while (len(seq)-i > window):
+        s = seq[i:i+lenght]
+        fileName = str(i)+"-"+str(i+lenght)
+        completeName = os.path.join(savePath,fileName+".txt")
+        toFile = open(completeName, "w")
+        toFile.write(s)
+        i+=window
+        toFile.close()
+    
+    f.close()
+        
+    
+    
+
