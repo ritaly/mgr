@@ -1,0 +1,54 @@
+MAGISTERKA 2016/2017!
+CNV Arabidopsis
+mapa CNV jest dynamicznie tworzona
+
+- ruszyć nową działkę 
+- popatrzeć na nową rzecz, badała regiony cnv i patrzyła, szukała miejsc, które mogły być miejscami rekombinacji homologicznej - tłumaczyłoby powstanie, regiony flonkujące cnv i by promowały duplikacje i delecje 
+
+te reg flankujące mają wysoki stopień podobieństwa
+mapa cnv jest niegotowa
+
+spróbować zrobić mapę miejsc które by były właśnie - 
+*** mapa regionów podatnych na niealleliczną rekombinację homologiczną w arabidopsis thaliana
+
+główna czesc pracy na przszukaniu sekwencji w genomi
+i wskazanie miejsc wykazujących się identycznością
+
+kolejna recz trzeba by sprawdzić jak wygląda kwestia badania segmentalnych duplikacji w A thaliana, w wersji mało przydatnej, ale może być mało info o regionach
+
+jeszcze musiałyby pewne warunki spełniać - odległość, charakterystyczne motywy (nie do końca poznane)
+jak u człowieka jest sporo informacji to u roślin jest chyba mało
+
+teoria od początku
+lektura na parę tygodni i robić pisała wstęp, do czegoś czy punkt wyjścia / motywuje marchewki motywują ;D 
+
+jak to będzie wyglądać - dodatkowy etap :P 
+sprawdzenie jak bardzo jest ruszony a nie ruszony w roślinach
+poszukanie danych źródłowych segmentalnych duplikacji w a.thaliana
+i ustalić kryteia odległość, długość, procent podobieństwa, odcinek o bardzo wysokiej homologii, inicojwane przeskoki
+
+na jednym organizmie jedena skewencja referencyjna,
+możemy porównać 1001 genomów arabidopsis 
+1135 genomów 
+udostępnili peudogenomy - cl 0 , nałożyli snipy i małe indele do 25
+
+
+różnice na genom referencyjny
+
+celem pracy jest znalezienie tego konkretnego wyniku :P
+dostanę materiały o rekombinacji nieallelicznej albo przeglądówki albo problemowe pracye przykładowe / region człowieka jako przykład
+jak ma nar działac
+czy rzeczywiście podlegają rekombinacjie etc...
+
+* za 3 tygodnie przeczytać :P
+
+
+
+I wstęp 2 podrozdziały
+ogólne wprwadzenie - wprowadzenie do tematu pracy od ogółu do szczegółu, jak to ma się do innych dziedzin, ostatnie zdanie stwierdzało co do końca robimy 
+cel i zakres pracy - i tu już ciagniemy problem - ja zachęcić do daleszgo czytania 
+
+
+II-III podstawowe pojącia, których praca dotyczy 
+ograniczenia techniczne opisać
+
