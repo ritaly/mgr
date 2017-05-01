@@ -14,8 +14,9 @@ with open('output.fasta') as f:
     while (len(seq)-i > window):
         s = seq[i:i+lenght]
         fileName = str(i)+"-"+str(i+lenght)
-        completeName = os.path.join(savePath,fileName+".txt")
+        completeName = os.path.join(savePath,fileName+".fasta")
         toFile = open(completeName, "w")
+        toFile.write(">Chr3 position: "+ str(fileName) + "\n")
         toFile.write(s)
         i+=window
         toFile.close()
