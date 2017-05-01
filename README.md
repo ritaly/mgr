@@ -9,7 +9,7 @@ Mapa regionów podatnych na niealleliczną rekombinację alleliczną u Arabidops
 * odcinek o wysokiej homologii wewnętrznej?
 * inicjowane przeskoki?
 
-#### 1. Przygotowanie danych  
+#### 1. Przygotowanie danych   
 PrepareTestData.py
 Wycięcie znanego CNV wraz z rejonem flankującym na podstawie Zmienko et al. BMC Genomics (2016) 17:893
 
