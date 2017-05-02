@@ -14,14 +14,13 @@ with open('output.fasta') as f:
     i = 0
     while (len(seq)-i > window):
         s = seq[i:i+lenght]
-        fileName = str(i)+"-"+str(i+lenght)
+        fileName = str(i)
         completeName = os.path.join(savePath,fileName+".fasta")
         toFile = open(completeName, "w")
         toFile.write(">Chr3 position: "+ str(start+i) + "-" + str(start+i+lenght) + "\n")
         toFile.write(s)
         i+=window
         toFile.close()
-    
     f.close()
         
     

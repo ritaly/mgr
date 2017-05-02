@@ -17,6 +17,7 @@ path = './wynik/'
 min_dist = 10000
 max_dist = 30000
 
+
 def NumericTxt(text):
     return int(text) if text.isdigit() else text
 
@@ -24,11 +25,14 @@ def NumericTxt(text):
 def natural_keys(text):
     return [NumericTxt(c) for c in re.split('(\d+)', text)]
 
+
 fileList = []
 for fileL in os.listdir(path):
     fileList.append(fileL)
 fileList.sort(key=natural_keys)
-print fileList
+
+for fileName in fileList:
+    print fileName.split("-")[0]
 
 """output = subprocess.check_output("blastn -query 1.fasta -subject 2.fasta \
                                 -outfmt 6", shell=True)
