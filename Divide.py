@@ -9,6 +9,7 @@ with open('output.fasta') as f:
     seq = f.read();
     lenght = 1000  #d³ugoœæ odcinka
     window = 500   #przesuniêcie o okno
+    start = 6300000
 
     i = 0
     while (len(seq)-i > window):
@@ -16,7 +17,7 @@ with open('output.fasta') as f:
         fileName = str(i)+"-"+str(i+lenght)
         completeName = os.path.join(savePath,fileName+".fasta")
         toFile = open(completeName, "w")
-        toFile.write(">Chr3 position: "+ str(fileName) + "\n")
+        toFile.write(">Chr3 position: "+ str(start+i) + "-" + str(start+i+lenght) + "\n")
         toFile.write(s)
         i+=window
         toFile.close()
