@@ -3,7 +3,7 @@ Mapa regionów podatnych na niealleliczną rekombinację alleliczną u Arabidops
 **Ustawienie parametrów**  
 * odległości między regionami flankującymi
   * min: 10tys
-  * max 30/40tys  
+  * max: 30/40tys  
 * długość fragmentów: 1000, przesunięcie: 500
 * procent podobieństwa: > 95%
 * odcinek o wysokiej homologii wewnętrznej?
@@ -23,6 +23,11 @@ Divide.py
 Pliki o sekwencjach długości po 1000nt --> do znalezienia % podobieństwa między nimi  
 
 Odległość między znanymi duplikatami: 4955pz  
+  
+** Nowe założenia dla programu:**  
+* odległości między regionami flankującymi
+  * min: 4,5tys
+  * max: 10tys  
 
 
 
