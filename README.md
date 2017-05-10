@@ -20,6 +20,9 @@ fragment - Chr3:6'300'000-6'400'000
   
 #### 2. Przygotowanie plików o długości 1000 z przesunięciem o 500  
 Divide.py  
-Pliki o sekwencjach długości po 1000nt --> do znalezienia % podobieństwa między nimi
+Pliki o sekwencjach długości po 1000nt --> do znalezienia % podobieństwa między nimi  
+
+Odległość między znanymi duplikatami: 4955pz  
+
 
 
