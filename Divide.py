@@ -3,14 +3,14 @@
 
 import os.path
 
-savePath = './wynik/'
+savePath = './chr3_caly/'
 
-with open('output.fasta') as f: 
+with open('ch3_ready.fasta') as f: #output.fasta - testowy maly
     seq = f.read();
     lenght = 1000  #d³ugoœæ odcinka
     window = 500   #przesuniêcie o okno
-    start = 6300000
-
+    start = 0
+    #start = 6300000
     i = 0
     while (len(seq)-i > window):
         s = seq[i:i+lenght]
