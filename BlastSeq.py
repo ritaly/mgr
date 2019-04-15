@@ -34,7 +34,7 @@ def blastn_command(file1, file2):
     options = '"6 qseqid sseqid pident length qstart qend sstart send"'
     command = "blastn -query " + file1 + " -subject " + file2 + " -outfmt " + options
     return command
-    
+
 def main():
     timestamp = time.strftime("%d-%b-%Y-%H%M%S", time.localtime())
     save_file = open("chr_test_2019_" + timestamp  + ".txt", "w")
